@@ -263,7 +263,7 @@
 
             // --- Gemini API 调用 ---
             const apiKey = "AIzaSyCCTNV2z_DHajhZZ1e0E_5MfO0aIZdduZ0"; // Canvas 将自动注入
-            const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${AIzaSyCCTNV2z_DHajhZZ1e0E_5MfO0aIZdduZ0}`;
+            const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
             
             const systemPrompt = translations[currentLanguage].aiSystemPrompt;
             const userQuery = promptText;
@@ -345,6 +345,7 @@
 </body>
 
 </html>
+
 
 
 
